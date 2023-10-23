@@ -33,6 +33,9 @@ h3{
 
 }
 
+section{
+	padding: 0 0 40px 0;
+}
 .center-audio{
 	display: flex;
 	align-items: center;
