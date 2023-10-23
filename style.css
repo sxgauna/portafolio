@@ -1,20 +1,20 @@
 /*GENERAL SETTINGS*/
 
 *{
+	background-color: #262626;
+	font-family: "Courier New";
 	list-style: none;
+
+
+	/*#3f51b5*/
 }
 
 *::selection{
-	background-color: #741f1f;
+	background-color: #3f51b5;
 	color: #ffd91f;
 }
 
-div{
-	background-color: #000000;
-}
-
 h2{
-	font-family: 'Bebas Neue', sans-serif;
 	color: #ffd91f;
 	padding: 0 0 5% 0;
 }
@@ -26,24 +26,16 @@ h3{
 	padding: 1em 18% 0 18%;
 
 	color: #ffd91f;
-	font-size: 2.5em;
-	font-family: sans-serif;
+	font-size: 1.2em;
 	line-height: 1.5;
 	text-align: left;
 
 }
 
+b{background-color: #000000;}
+
 section{
 	padding: 0 0 40px 0;
-}
-.center-audio{
-	display: flex;
-	align-items: center;
-	margin: 0 auto;
-	height: 80px;
-	width: 18em;
-	background-color: #000000;
-	padding: 0 0 15px 0;
 }
 
 /*GENERAL LINKS SETTINGS*/
@@ -55,9 +47,8 @@ a:link{
 }
 
 a:hover{
-	color: rgb(253, 255, 149);
+	color: rgb(130, 77, 255);
 	cursor:url('accessories/rock.cur'), auto;
-	letter-spacing: .05em;
 	transition: all .2s;
 }
 
@@ -70,44 +61,33 @@ a:visited{
 /*NAV*/
 
 .nav__ul{
-	display:flex;
+	display: flex;
+	background-color: #000000;
 	object-fit:contain;
 	justify-content: center;
-	padding: 0 0 2em 0;
-
-	border-width: 0px 0px 50px 0px;
-	border-color: #000000;
-	border-style: solid;
+	padding: 2em 0;
+	margin: 0 0 3% 0;
  }
 
 .nav__li{
-	display:inline-block;
-	margin: 0 2em;
-	background-color: #b62f09;
-	font-family: 'Rubik Moonrocks', cursive;
-	font-weight: 100;
-	border-radius: 0 0 4px 4px;
+	display:flex;
+	background-color: #000000;
+	text-align: center;
 	padding: 8px 12px 10px 12px;
 }
 
 .nav__ul-responsive{
 	display:none;
-	background-color: #b62f09;
+	background-color: #000000;
 	text-align: center;
-	padding: 3% 1% 1% 1%;
-
-	border-width: 0px 0px 50px 0px;
-	border-color: #000000;
-	border-style: solid;
+	margin: 0 0 3% 0;
 }
 
 .nav__li-responsive{
 	display:flex;
+	background-color: #000000;
 	text-align: center;
-	font-family: 'Rubik Moonrocks', cursive;
-	justify-content: center;
-	letter-spacing: .02em;
-	padding:.5em 1em;
+	padding: 8px 12px 10px 12px;
 }
 
 @media only screen and (max-width: 800px){
@@ -135,7 +115,6 @@ a:visited{
 	list-style: none;
 	display: block;
 	text-align: center;
-	font-family: 'Bebas Neue', sans-serif;
 	font-size: 1.3em;
 	color: #ffffff;
 	line-height: 1.5;
@@ -145,24 +124,25 @@ a:visited{
 /*FOOTER*/
 
 footer{
-	background: #b62f09;
+	background-color: #000000;
 	padding: 15px 2px 10px 2px;
-	font-family: sans-serif;
 	font-size: .8em;
 	text-align:center;
 	color: #D8d6d4;
 }
 
 .c-footer--1{
-	display: inline-block;
+	display: block;
+	background-color: #000000;
 	padding: 0 2px 10px 2px;
 	letter-spacing: .02em;
 }
 
 .c-footer--2{
 	display: inline-block;
+	background-color: #000000;
 	padding: 15px;
-	font-size: .7em;
+	font-size: 1em;
 }
 
 
@@ -184,7 +164,6 @@ footer{
 
 .flex-item{
 	flex-basis: max-content;
-	font-family: Arial, Helvetica, sans-serif;
 	color: #ffffff;
 	background-color: #1c0504;
 	text-align: left;
@@ -206,8 +185,7 @@ footer{
 	flex-flow: column;
 	flex-shrink: 0;
 	flex-basis: 100%;
-	padding: 0 18% 8% 18%;
-	font-family: sans-serif;
+	padding: 0 18% 10px 18%;
 	font-size: 1em;
 	text-align: left;
 	line-height: 1.5;
@@ -218,7 +196,6 @@ footer{
 	flex-basis: max-content;
 	flex-flow: column;
 	flex-shrink: 0;
-	font-family: sans-serif;
 	font-size: 1em;
 	line-height: 1.5;
 	padding: 5%;
@@ -232,7 +209,6 @@ footer{
 	flex-shrink: 0;
 	flex-basis: 100%;
 	padding: 2% 18%;
-	font-family: sans-serif;
 	font-size: 1em;
 	text-align: center;
 	line-height: 1.5;
