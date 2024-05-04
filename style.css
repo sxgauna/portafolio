@@ -61,7 +61,7 @@ a:link{
 }
 
 a:hover{
-	color: rgb(130, 77, 255);
+	color: #ffd91f;
 	cursor:url('accessories/rock.cur'), auto;
 	transition: all .2s;
 }
@@ -148,14 +148,14 @@ footer{
 .c-footer--1{
 	display: block;
 	background-color: #000000;
-	padding: 0 2px 10px 2px;
+	padding: 0 0px 10px 0px;
 	letter-spacing: .02em;
 }
 
 .c-footer--2{
 	display: inline-block;
 	background-color: #000000;
-	padding: 15px;
+	padding: 15px 0px 3em 0px;
 	font-size: 1em;
 }
 
