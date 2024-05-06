@@ -167,3 +167,30 @@ footer{
 	line-height: 1.5;
 	color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    .sections-box {
+        grid-template-columns: 1fr;
+        margin: 20px 0 0 0;
+    }
+
+    .flex-item {
+        padding: 0.8em 1em;
+    }
+}
+
+/* Media query para pantallas aún más pequeñas */
+@media (max-width: 480px) {
+    .container {
+        height: auto;
+    }
+
+    .sections-box {
+        margin: 10px 0 0 0;
+    }
+
+    .flex-item {
+        font-size: 0.9em;
+        padding: 0.6em 1em;
+    }
+}
