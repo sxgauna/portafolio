@@ -78,6 +78,7 @@ li{
     color: #ffffff;
 	justify-items: center;
 	align-items: center;
+    padding: 4em 10em;
 }
 
 .section-2 {
@@ -91,7 +92,7 @@ li{
     color: #ffffff;
     justify-items: center;
 	align-items: center;
-    padding: 4em 0 0 0;
+    padding: 4em 10em;
 }
 
 /*FOOTER*/
