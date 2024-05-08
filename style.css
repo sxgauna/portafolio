@@ -26,13 +26,11 @@ a:visited {
     color: #ffffff;
     background-color: #000000;
     text-decoration: none;
-    cursor: url('accessories/rock.cur'), auto;
 }
 
 a:hover {
     color: #ffd91f;
     background-color: #000000;
-    cursor: url('accessories/rock.cur'), auto;
     transition: all .2s;
 }
 
