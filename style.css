@@ -4,6 +4,15 @@
     list-style: none;
 }
 
+*[id]{
+    padding: 3em 0 0 0;
+}
+
+#INICIO{
+    padding: 0;
+}
+
+
 *::selection {
     background-color: #3f51b5;
     color: #ffd91f;
@@ -38,6 +47,7 @@ a:hover {
 
 li{
 	display:inline-block;
+    
 	padding: 0 1em 0 0;
 }
 
@@ -58,12 +68,15 @@ li{
 
 .section-0 {
     display: grid;
+    position: sticky;
+    top: 0;
 	background-color: #000000;
 	grid-column: 1/-1;
 	grid-row:1/2;
 	justify-items: center;
 	align-items: center;
     padding: .5em 0 0 0;
+    z-index: 1;
 }
 
 .section-1 {
@@ -119,14 +132,19 @@ li{
     font-size: 1em;
 }
 
-.responsive-container {
+.responsive-container-bi {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; /* Aspect ratio 16:9 */
-    /* You can adjust padding-bottom to match the aspect ratio of your iframe */
     overflow: hidden;
   }
   
+  .responsive-container-tableau {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
 .responsive-iframe {
     position: absolute;
     top: 0;
@@ -135,3 +153,16 @@ li{
     height: 100%;
     border: 0;
   }
+
+  .responsive-iframe-tableau {
+    width: 100% !important;
+    height: 0 !important;
+    padding-bottom: 75% !important; /* Ajusta este valor según la proporción deseada */
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .responsive-iframe-tableau {
+      padding-bottom: 150% !important; /* Ajusta este valor para pantallas más pequeñas */
+    }
+  }
+  
