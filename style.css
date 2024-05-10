@@ -26,7 +26,7 @@ h2 {
 .container {
     display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
-	grid-template-rows: 3em 20em 1fr 8em;
+	grid-template-rows: 3em 25em 1fr 8em;
 }
 
 /*LINKS*/
@@ -90,7 +90,6 @@ li{
     color: #ffffff;
 	justify-items: center;
 	align-items: center;
-    padding: 1% 0 3% 0;
 }
 
 .section-2 {
@@ -104,7 +103,7 @@ li{
     color: #ffffff;
     justify-items: center;
 	align-items: center;
-    padding: 5%;
+    padding: 4%;
 }
 
 /*FOOTER*/
@@ -164,5 +163,10 @@ li{
     .responsive-iframe-tableau {
       padding-bottom: 150% !important; /* Ajusta este valor para pantallas más pequeñas */
     }
+  }
+
+  .padding_down{
+
+    padding: 0 0 1em 0;
   }
   
