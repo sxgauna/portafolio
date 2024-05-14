@@ -26,20 +26,18 @@ h2 {
 .container {
     display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
-	grid-template-rows: 3em 25em 1fr 8em;
+	grid-template-rows: 3.5em 25em 1fr 8em;
 }
 
 /*LINKS*/
 a:link,
 a:visited {
     color: #ffffff;
-    background-color: #000000;
     text-decoration: none;
 }
 
 a:hover {
     color: #ffd91f;
-    background-color: #000000;
     transition: all .2s;
 }
 
@@ -47,7 +45,6 @@ a:hover {
 
 li{
 	display:inline-block;
-    
 	padding: 0 1em 0 0;
 }
 
@@ -64,11 +61,25 @@ li{
     padding: 3em;
 }
 
+.img-icon {
+	display: inline-block;
+	justify-self: center;
+    align-items: center;
+    background-image: url("accessories/mail.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    user-select: none;
+}
+
+
+
+
 /*STRUCTURE*/
 
 .section-0 {
     display: grid;
     position: sticky;
+    text-align: center;
     top: 0;
 	background-color: #000000;
 	grid-column: 1/-1;
@@ -78,6 +89,7 @@ li{
     padding: .5em 0 0 0;
     z-index: 1;
 }
+
 
 .section-1 {
     display: grid;
