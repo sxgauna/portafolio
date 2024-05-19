@@ -3,12 +3,11 @@ header{
     position: sticky;
     text-align: center;
     top: 0;
-    background-color: #000000;
+    background-color: $color-5;
     grid-column: 1/-1;
     grid-row:1/2;
     justify-items: center;
     align-items: center;
-    padding: .5em 0 0 0;
     z-index: 1;
     nav{
         ul{
@@ -19,12 +18,11 @@ header{
                 a{
                     &:link,
                     &:visited {
-                        color: #ffffff;
+                        color: $color-2;
                         text-decoration: none;
                     }
                     &:hover{
-                        text-decoration: underline;
-                        color: #ffd91f;
+                        color: $color-4;
                         transition: all .2s;
                     }
                 }
