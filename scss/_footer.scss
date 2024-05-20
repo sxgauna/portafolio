@@ -3,7 +3,7 @@ footer {
     grid-row:4/5;
     background-color: $color-1;
     padding: 25px 2px 5px 2px;
-    font-size: .8em;
+    font-size: $size-normal;
     text-align: center;
     color: $color-2;
     .c-footer--1{
@@ -14,7 +14,7 @@ footer {
         letter-spacing: .02em;
         .c-footer--2 {
             padding: .5em 0px 2em 0px;
-            font-size: 1em;
+            font-size: $size-normal;
         }
     }
 }

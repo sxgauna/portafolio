@@ -37,13 +37,14 @@
 .nav li ul{
     display:none;
     position: absolute;
-    min-width: 140px;
-    padding: 10px;
+    min-width: 100px;
+    padding: .5em;
 }
 
 .nav li:hover > ul {
     display: block;
     background-color: $color-5;
+    font-size: $size-mini;
 }
 
 
@@ -54,8 +55,5 @@
     color: $color-2;
     justify-items: center;
     align-items: center;
-    padding: 0;
-    
-
-    
+    padding: 0;   
 }

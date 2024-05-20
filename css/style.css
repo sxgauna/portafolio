@@ -347,13 +347,14 @@ template {
 .nav li ul {
   display: none;
   position: absolute;
-  min-width: 140px;
-  padding: 10px;
+  min-width: 100px;
+  padding: 0.5em;
 }
 
 .nav li:hover > ul {
   display: block;
   background-color: #000000;
+  font-size: 0.7em;
 }
 
 .nav li ul li {
@@ -371,7 +372,7 @@ footer {
   grid-row: 4/5;
   background-color: #262626;
   padding: 25px 2px 5px 2px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   text-align: center;
   color: #d8d6d4;
 }
@@ -384,7 +385,7 @@ footer .c-footer--1 {
 }
 footer .c-footer--1 .c-footer--2 {
   padding: 0.5em 0px 2em 0px;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .container {
