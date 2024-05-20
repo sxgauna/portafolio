@@ -308,30 +308,62 @@ template {
   display: none;
 }
 
-header {
+#header {
   display: grid;
   position: sticky;
+  grid-column: 1/-1;
   text-align: center;
   top: 0;
-  background-color: #000000;
-  grid-column: 1/-1;
   grid-row: 1/2;
+  background-color: #000000;
+  line-height: 1.5;
+  color: #d8d6d4;
   justify-items: center;
   align-items: center;
   z-index: 1;
+  padding: 0;
 }
-header nav ul li {
-  padding: 0 1em 0 0;
-  display: inline-block;
-  list-style-type: none;
+
+.nav {
+  padding: 0;
+  margin: 0;
 }
-header nav ul li a:link, header nav ul li a:visited {
+
+.nav li a {
   color: #d8d6d4;
   text-decoration: none;
+  padding: 0.5em;
+  display: block;
 }
-header nav ul li a:hover {
-  color: #ffd91f;
-  transition: all 0.2s;
+
+.nav > li {
+  float: left;
+}
+
+.nav li a:hover {
+  background-color: #262626;
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  padding: 10px;
+}
+
+.nav li:hover > ul {
+  display: block;
+  background-color: #000000;
+}
+
+.nav li ul li {
+  position: relative;
+  text-align: left;
+  line-height: 1.5;
+  color: #d8d6d4;
+  justify-items: center;
+  align-items: center;
+  padding: 0;
 }
 
 footer {
@@ -358,7 +390,7 @@ footer .c-footer--1 .c-footer--2 {
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-template-rows: 4em 30em 1fr 8em;
+  grid-template-rows: 3em 30em 1fr 8em;
 }
 
 /*GENERAL SETTINGS*/
